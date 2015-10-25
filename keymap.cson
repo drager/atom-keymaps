@@ -1,0 +1,36 @@
+# OSX
+
+'.platform-darwin, .platform-darwin .command-palette .editor':
+ 'cmd-shift-P': 'command-palette:toggle'
+
+'atom-workspace atom-text-editor:not([mini])':
+ 'cmd-d': 'editor:duplicate-lines'
+ 'cmd-shift-D': 'editor:delete-line'
+ 'alt-shift-up': 'editor:move-line-up'
+ 'alt-shift-down': 'editor:move-line-down'
+
+'.platform-darwin atom-text-editor':
+ 'cmd-b': 'symbols-view:go-to-declaration'
+
+'.platform-darwin':
+ 'cmd-§': 'fuzzy-finder:toggle-file-finder'
+ 'cmd-`': 'fuzzy-finder:toggle-file-finder'
+
+ # Linux
+
+'.platform-linux, .platform-linux .command-palette .editor':
+ 'ctrl-shift-P': 'command-palette:toggle'
+
+'atom-workspace atom-text-editor:not([mini])':
+ 'ctrl-d': 'editor:duplicate-lines'
+ 'ctrl-shift-D': 'editor:delete-line'
+ 'ctrl-shift-up': 'editor:move-line-up'
+ 'ctrl-shift-down': 'editor:move-line-down'
+
+'.platform-linux atom-text-editor':
+ 'ctrl-b': 'symbols-view:go-to-declaration'
+
+'.platform-linux':
+ 'ctrl-§': 'fuzzy-finder:toggle-file-finder'
+ 'ctrl-`': 'fuzzy-finder:toggle-file-finder'
+
